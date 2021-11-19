@@ -1,4 +1,4 @@
-FROM node:8.16.1
+FROM node:8.17
 
 COPY . /instagram-app
 RUN cd /instagram-app && npm install
